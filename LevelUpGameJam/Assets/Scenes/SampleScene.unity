@@ -2933,6 +2933,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyDelay: 0
+  stats: {fileID: 0}
+  sliderPoints: {fileID: 962566039}
+  animSlider: {fileID: 962566040}
+  points: 0
 --- !u!1 &1287061960
 GameObject:
   m_ObjectHideFlags: 0
@@ -3869,7 +3873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3344724483293438409, guid: 6485b768027ece14791bd84fc546ad84, type: 3}
       propertyPath: m_Value
-      value: 51.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3344724483293438409, guid: 6485b768027ece14791bd84fc546ad84, type: 3}
       propertyPath: m_MaxValue
