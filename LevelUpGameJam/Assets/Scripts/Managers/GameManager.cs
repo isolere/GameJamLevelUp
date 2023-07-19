@@ -18,6 +18,14 @@ public class GameManager : MonoBehaviour
     {
     }
 
+    private int _points;
+
+    public void IncreasePoints(int points)
+    {
+        _points += points;
+
+       
+    }
     private void LoadGame()
     {
 
