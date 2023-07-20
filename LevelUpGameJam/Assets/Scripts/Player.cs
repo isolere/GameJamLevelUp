@@ -39,11 +39,23 @@ public class Player : MonoBehaviour
 
         if (retrocedir)
         {
-            // Desplaçament cap enrere durant un segon
+            // Desplaçament cap direccio contraria durant 0.3segons
 
-            transform.Translate(-100 * Time.deltaTime, -0, 0);
-            timer += Time.deltaTime;
 
+
+            if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+            {
+                transform.Translate(100 * Time.deltaTime, -0, 0);
+                timer += Time.deltaTime;
+
+            }
+            else
+            {
+                transform.Translate(-100 * Time.deltaTime, -0, 0);
+                timer += Time.deltaTime;
+
+            }
+       
             if (timer >= duracio)
             {
                 // Recuperar les condicions originals
@@ -64,10 +76,18 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
+
         if (other.gameObject.tag != "pla_collider_aigua")
         {
              retrocedir = true;
+
         }
+        
+
+
+        
+
+
 
         //moveSpeed = slowSpeed; 
     }
