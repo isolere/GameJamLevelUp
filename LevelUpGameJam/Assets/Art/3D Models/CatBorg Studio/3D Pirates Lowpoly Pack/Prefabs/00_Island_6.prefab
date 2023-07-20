@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 8582159765945504209}
   - component: {fileID: 4662966431025716852}
   - component: {fileID: 7445250673920912062}
+  - component: {fileID: 8747098350340997230}
   m_Layer: 0
   m_Name: 00_Island_6
   m_TagString: Untagged
@@ -252,6 +253,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &8747098350340997230
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8958262717956000619}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 54.05134
+  m_Height: 141.28725
+  m_Direction: 1
+  m_Center: {x: -1.053778, y: -6.6116433, z: 0.6036738}
 --- !u!1 &9214484336138186428
 GameObject:
   m_ObjectHideFlags: 0
