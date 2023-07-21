@@ -1,0 +1,1747 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16269 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Quaven/Documents/GitHub/GameJamLevelUp/LevelUpGameJam
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51012
+Successfully changed project path to: C:/Users/Quaven/Documents/GitHub/GameJamLevelUp/LevelUpGameJam
+C:/Users/Quaven/Documents/GitHub/GameJamLevelUp/LevelUpGameJam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18364] Host "[IP] 192.168.1.136 [Port] 0 [Flags] 2 [Guid] 2776772954 [EditorId] 2776772954 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PD52D9D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18364] Host "[IP] 192.168.1.136 [Port] 0 [Flags] 2 [Guid] 2776772954 [EditorId] 2776772954 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PD52D9D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 189.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Quaven/Documents/GitHub/GameJamLevelUp/LevelUpGameJam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019908 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 180.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.087 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (135ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (181ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017002 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 187.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2148ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1788ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (472ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (969ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (188ms)
+				BeforeProcessingInitializeOnLoad (232ms)
+				ProcessInitializeOnLoadAttributes (374ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (1.0 MB). Loaded Objects now: 5553.
+Memory consumption went from 213.6 MB to 212.6 MB.
+Total: 7.270900 ms (FindLiveObjects: 0.931700 ms CreateObjectMapping: 0.438000 ms MarkObjects: 5.290000 ms  DeleteObjects: 0.609600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1144313.758944 seconds.
+  path: Assets/Scripts/Message.cs
+  artifactKey: Guid(f397cc073aaed3d458e7030c943e96ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Message.cs using Guid(f397cc073aaed3d458e7030c943e96ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285e2660d08640080c805a500603cf12') in 0.089230 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019149 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00036] in C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1782ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1409ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4950 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.8 MB). Loaded Objects now: 5569.
+Memory consumption went from 201.8 MB to 201.1 MB.
+Total: 5.042200 ms (FindLiveObjects: 0.451900 ms CreateObjectMapping: 0.511400 ms MarkObjects: 3.649200 ms  DeleteObjects: 0.428500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2141.966252 seconds.
+  path: Assets/Art/3D Models/EscapeFromIoc/Green Fairy/GreenFairy.fbx
+  artifactKey: Guid(cfc0bfaacd503084f988337506e0a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EscapeFromIoc/Green Fairy/GreenFairy.fbx using Guid(cfc0bfaacd503084f988337506e0a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebef6e3bfa0bc5a545104e2d7ed41ef') in 5.151067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 232.538692 seconds.
+  path: Assets/Art/3D Models/EscapeFromIoc/Gato/GatoLow.fbx
+  artifactKey: Guid(30ce0e81b5a643a40b63571d5f3b6f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EscapeFromIoc/Gato/GatoLow.fbx using Guid(30ce0e81b5a643a40b63571d5f3b6f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528ae6dece12cb09b8813f1b507d6148') in 1.806839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/3D Models/EscapeFromIoc/Gato/GatoPruebaAnim.prefab
+  artifactKey: Guid(f3736d09b868a454ab41224c76d7724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EscapeFromIoc/Gato/GatoPruebaAnim.prefab using Guid(f3736d09b868a454ab41224c76d7724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0072e9e1562e4d95c86ecb7daea35159') in 1.195113 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018238 seconds.
+Begin MonoManager ReloadAssembly
+Cleanup Blit
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.Blitter:Cleanup () (at Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs:158)
+UnityEngine.Rendering.Universal.UniversalRenderer:Dispose (bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/UniversalRenderer.cs:361)
+UnityEngine.Rendering.Universal.ScriptableRenderer:Dispose () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/ScriptableRenderer.cs:565)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderer (UnityEngine.Rendering.Universal.ScriptableRenderer&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:493)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:486)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:OnDisable () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:509)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs Line: 158)
+
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00036] in C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2745ms)
+		BeginReloadAssembly (334ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2184ms)
+			LoadAssemblies (269ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (681ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (935ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (510ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4956 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.8 MB). Loaded Objects now: 5671.
+Memory consumption went from 205.3 MB to 204.6 MB.
+Total: 55.675200 ms (FindLiveObjects: 0.601400 ms CreateObjectMapping: 0.257000 ms MarkObjects: 54.060500 ms  DeleteObjects: 0.754800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 597.066998 seconds.
+  path: Assets/Art/3D Models/EscapeFromIoc/Gato/GatoPruebaAnim.prefab
+  artifactKey: Guid(f3736d09b868a454ab41224c76d7724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EscapeFromIoc/Gato/GatoPruebaAnim.prefab using Guid(f3736d09b868a454ab41224c76d7724e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212e3fab772947e1d722b4688b5ec0f8') in 0.376186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1638.738737 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01e.fbx
+  artifactKey: Guid(ba0598396b886f349b14733c8e85ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01e.fbx using Guid(ba0598396b886f349b14733c8e85ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627be20f2e149862c08378433e33ce9c') in 0.388480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Gentleland/SteampunkUI/Fonts/RobotoSlab/RobotoSlab SDF.asset
+  artifactKey: Guid(34a4a0c89db9414489be1315c76bc9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gentleland/SteampunkUI/Fonts/RobotoSlab/RobotoSlab SDF.asset using Guid(34a4a0c89db9414489be1315c76bc9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d8272ee48968c0a8646405a1429019') in 0.173595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01a.fbx
+  artifactKey: Guid(976a0e6dad5486043925466ce216784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01a.fbx using Guid(976a0e6dad5486043925466ce216784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5702eef247e9b57440262ebe3950f647') in 0.089610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Materials/Red.mat
+  artifactKey: Guid(81867c56398372f4cb995b9ec857e1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Red.mat using Guid(81867c56398372f4cb995b9ec857e1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeebd7e4453cdbd06ccbc3557dede212') in 0.090524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Demo_Day_Profiles/Sky.mat
+  artifactKey: Guid(85df08ae517ccb74f832bb4994463f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Demo_Day_Profiles/Sky.mat using Guid(85df08ae517ccb74f832bb4994463f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f0ecf0a4e984e304811db333774ce6') in 0.180869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Materials/Pal.mat
+  artifactKey: Guid(70e6f64aae01bb04d964171c92ad749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Materials/Pal.mat using Guid(70e6f64aae01bb04d964171c92ad749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12736007aa5bfea55929f62bf259bf5b') in 0.034271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01f.fbx
+  artifactKey: Guid(c496f2b8ec246a64c8a713c75c891484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01f.fbx using Guid(c496f2b8ec246a64c8a713c75c891484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc90bf97c833cb4114aa75e6907e8e2') in 0.092799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01c.fbx
+  artifactKey: Guid(8593ded905f9af947a7107db718cfd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01c.fbx using Guid(8593ded905f9af947a7107db718cfd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79bd8da0c7aeba18fd13da5e19ed764') in 0.090013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01a.fbx
+  artifactKey: Guid(7bc861246c24a1542915bd570e14168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01a.fbx using Guid(7bc861246c24a1542915bd570e14168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca47b7231b650c1557557a9defcd3cc') in 0.091590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01f.fbx
+  artifactKey: Guid(46bbfe1326cc4e84e851ba1faee81042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01f.fbx using Guid(46bbfe1326cc4e84e851ba1faee81042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac4912192ce6abfe6b572370fa76339') in 0.084951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wehicule_Raft_01a.fbx
+  artifactKey: Guid(61895aefa3684d3448b565d3bfb3da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wehicule_Raft_01a.fbx using Guid(61895aefa3684d3448b565d3bfb3da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b0d60b8f73aa6087af2a7181ecaf25') in 0.108580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01d.fbx
+  artifactKey: Guid(9decbebaa9f18214eb92f99b7c6af761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01d.fbx using Guid(9decbebaa9f18214eb92f99b7c6af761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b022a2ca0c9835aff7d0ad0c48052f') in 0.081211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01d.fbx
+  artifactKey: Guid(2f42d8fc0f6cde841a074b842295c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01d.fbx using Guid(2f42d8fc0f6cde841a074b842295c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7699a09370da8ebf0c7a4de765a9af6a') in 0.088399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01b.fbx
+  artifactKey: Guid(5b9a48987d3e1c2469a80bcacfdcb363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01b.fbx using Guid(5b9a48987d3e1c2469a80bcacfdcb363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2cf3822731451b8c6ecd62c1369f72') in 0.089337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Materials/Material_decal.mat
+  artifactKey: Guid(a8c41fb0606ae5b4faf3131c8a44f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Materials/Material_decal.mat using Guid(a8c41fb0606ae5b4faf3131c8a44f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0b3f3ee86a60f45643e107181dba84') in 0.053461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/3D Models/Alstra Infinite/Fish - PolyPack/Models/FishV1.fbx
+  artifactKey: Guid(38f74cd884cda8242b4fdc167c4962f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Alstra Infinite/Fish - PolyPack/Models/FishV1.fbx using Guid(38f74cd884cda8242b4fdc167c4962f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046205d950459fe711aee86a5ed811d8') in 0.063849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01d.fbx
+  artifactKey: Guid(71130e78383d62749afea6274f860b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01d.fbx using Guid(71130e78383d62749afea6274f860b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1246039aad5c58e35486d8ba1bddb9') in 0.081042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Ketchup.fbx
+  artifactKey: Guid(baefd1ad4342ba54cb912d9220b74f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Ketchup.fbx using Guid(baefd1ad4342ba54cb912d9220b74f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003a2b06550bfbc9d1949a3353562e63') in 0.052383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_Railway_tracks_04.fbx
+  artifactKey: Guid(1ea5cda74764be04fbde1dd2bfb3ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_Railway_tracks_04.fbx using Guid(1ea5cda74764be04fbde1dd2bfb3ade3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119e23296d74d2d8e06993801a4a1b90') in 0.056584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/3D Models/Alstra Infinite/Fish - PolyPack/Models/FishV2.fbx
+  artifactKey: Guid(a8fd0d08c30426d4c978a4998752cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Alstra Infinite/Fish - PolyPack/Models/FishV2.fbx using Guid(a8fd0d08c30426d4c978a4998752cf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766956ad01db4975e239d9e848911a0d') in 0.060692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01a.fbx
+  artifactKey: Guid(8a323d9d4144e7447b5a20781a270900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01a.fbx using Guid(8a323d9d4144e7447b5a20781a270900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3cf5c8e1f3f6cefb01eaebe6d1032b') in 0.087148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_01.fbx
+  artifactKey: Guid(28ff93f702223b7468de9034b7b7d8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_01.fbx using Guid(28ff93f702223b7468de9034b7b7d8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8504192928dba7438f1b7fc6d4fd2e6') in 0.051929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01c.fbx
+  artifactKey: Guid(68df7f764ac622e47a27228d3e5d2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Root_01c.fbx using Guid(68df7f764ac622e47a27228d3e5d2d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579d210f4f52392268fb1cd58b268736') in 0.092194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/3D Models/Alstra Infinite/Fish - PolyPack/Materials/Main.mat
+  artifactKey: Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Alstra Infinite/Fish - PolyPack/Materials/Main.mat using Guid(284830dd46ce77c4696ef63853c7cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9295cedbc882a2021cfad16f81c619e') in 0.040113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01a.fbx
+  artifactKey: Guid(bc38a0273f1f5f84d9fa9c366c52779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Stone_Sand_01a.fbx using Guid(bc38a0273f1f5f84d9fa9c366c52779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d51c69f5280b71f880e55335c71725') in 0.088466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01e.fbx
+  artifactKey: Guid(4c4a39a91c621a94181e0fb1c0f17850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01e.fbx using Guid(4c4a39a91c621a94181e0fb1c0f17850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a407613c1e846b16f0bc29bc3c2cb573') in 0.079764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/3D Models/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx
+  artifactKey: Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Alstra Infinite/Fish - PolyPack/Models/FishV4.fbx using Guid(ea93ead513f04c9478f78e3f40ba5b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6eab2fe8300ba6b471588360a1f70c6') in 0.053869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Materials/Material_organic.mat
+  artifactKey: Guid(a4255dde21a29144d802db7a03a5966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Materials/Material_organic.mat using Guid(a4255dde21a29144d802db7a03a5966e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc01fd48651c17b3da4e74312318124f') in 0.033471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f5a4f435374a81bf278ac856817a15') in 0.068383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Rubberband.fbx
+  artifactKey: Guid(be4f30e70fe72d34dad829116e50509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Rubberband.fbx using Guid(be4f30e70fe72d34dad829116e50509e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14ef0c8eab9335f98d3284499752755') in 0.052115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Fish Bones.fbx
+  artifactKey: Guid(335b41b4e22150d468f9b2b5a937c1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Fish Bones.fbx using Guid(335b41b4e22150d468f9b2b5a937c1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e4c50554fc45ed790c52b63c49a71c') in 0.055559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Materials/Sky.mat
+  artifactKey: Guid(a665688ca26d8864a996bcedeb578031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Materials/Sky.mat using Guid(a665688ca26d8864a996bcedeb578031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72c6a0f8d67965fb0111749cb030254') in 0.033893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Materials/NightWindowSkyTower.mat
+  artifactKey: Guid(302914f8430acfe49bfff4d1ed08739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Materials/NightWindowSkyTower.mat using Guid(302914f8430acfe49bfff4d1ed08739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fefd0957a159d2015de47a100b47ae') in 0.040754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Materials/LowPolyWater.mat
+  artifactKey: Guid(895a988b69d5f5545be73141bafd93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Materials/LowPolyWater.mat using Guid(895a988b69d5f5545be73141bafd93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa293344226c55e818564e4aba892091') in 0.054660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/FREE/Animations/Pudu_Animations.fbx
+  artifactKey: Guid(b33fe6572f5e9b54e85212ea4aaf5a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/FREE/Animations/Pudu_Animations.fbx using Guid(b33fe6572f5e9b54e85212ea4aaf5a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312d5c86b686cb7890d46c645d11309c') in 0.116402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Fish head.fbx
+  artifactKey: Guid(a3ae173c1e712da47a72ca2e41b2b2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Fish head.fbx using Guid(a3ae173c1e712da47a72ca2e41b2b2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df1b699b62b682f4c28a6808b1d7f00') in 0.051353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/FREE/Animations/Taipan_Animations.fbx
+  artifactKey: Guid(1c77555fce85aa74da16fd6cadfac6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/FREE/Animations/Taipan_Animations.fbx using Guid(1c77555fce85aa74da16fd6cadfac6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd07372808241cffd53f27323de810f8') in 0.095567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5938024e15ac54a50d85fce0404d0062') in 0.031716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Materials/MainMaterialDark.mat
+  artifactKey: Guid(6284a9a8d1d10a646be65b23172d480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Materials/MainMaterialDark.mat using Guid(6284a9a8d1d10a646be65b23172d480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fdb494755c7a5268e4f278dfe86cc8') in 0.039224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Empty Milk.fbx
+  artifactKey: Guid(76a7eb01b60c93741a5336b5937007c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Empty Milk.fbx using Guid(76a7eb01b60c93741a5336b5937007c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bd52de690499076c202fe5147edb93') in 0.050796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01h.fbx
+  artifactKey: Guid(5c81b1964c400964a936eb655fb29c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_01h.fbx using Guid(5c81b1964c400964a936eb655fb29c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a102ed2bccaa06e37aeacff9836c1f20') in 0.080396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01c.fbx
+  artifactKey: Guid(50e04cf96ff351e4da1e14ee52c8b7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01c.fbx using Guid(50e04cf96ff351e4da1e14ee52c8b7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3135c67322a2b039911214b2a60060') in 0.081100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/FREE/Materials/M_Herring.mat
+  artifactKey: Guid(3e8aafc24b32c3c4b894a9711d0f877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/FREE/Materials/M_Herring.mat using Guid(3e8aafc24b32c3c4b894a9711d0f877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3799a800a0326a4c4897e7f35afc51a') in 0.047723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_brige_04.fbx
+  artifactKey: Guid(6816d09e0f1390f41af33c00e636ac08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_brige_04.fbx using Guid(6816d09e0f1390f41af33c00e636ac08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139ae91a53524ec5aaab2ba014e20880') in 0.048692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_03.fbx
+  artifactKey: Guid(06e3748d6d3bbe645bebbcff855b7bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_03.fbx using Guid(06e3748d6d3bbe645bebbcff855b7bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c8eee6969770ab269e3918e5e09831') in 0.059937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Empty Soda.fbx
+  artifactKey: Guid(02b5ebdf92f23c340b32751f2427437a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Empty Soda.fbx using Guid(02b5ebdf92f23c340b32751f2427437a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a221ddc4ef513f249126edc6a438b7e5') in 0.050161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/FREE/Animations/Squid_Animations.fbx
+  artifactKey: Guid(f2c84b0c526b37c45806428bb221b269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/FREE/Animations/Squid_Animations.fbx using Guid(f2c84b0c526b37c45806428bb221b269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1357cd5a2d1b27bc2960ad0e011b072') in 0.079943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/SilverBirchTreeLarge.fbx
+  artifactKey: Guid(9f8d4b60221bbb6439840c9bef8a3594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/SilverBirchTreeLarge.fbx using Guid(9f8d4b60221bbb6439840c9bef8a3594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf7342b77c70654f4d3ace4157706ed') in 0.056904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23591b0be794c44f20e81b74bb4a6fae') in 0.172331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Concrete_Plain.fbx
+  artifactKey: Guid(a3529b12deba4a247abc27c310fa6beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Concrete_Plain.fbx using Guid(a3529b12deba4a247abc27c310fa6beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf08d708d21ed910ba934a6e7078c821') in 0.054767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_LavaBase.fbx
+  artifactKey: Guid(881f27bc558e64d4983e73ddeb0afcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_LavaBase.fbx using Guid(881f27bc558e64d4983e73ddeb0afcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01f2e101d0c541da50e358b803b203f') in 0.044705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_SumAut.fbx
+  artifactKey: Guid(14170a0d9e67a244ab362fee5c702312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_SumAut.fbx using Guid(14170a0d9e67a244ab362fee5c702312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d05afd6b42d812407cad7b713507bb') in 0.053056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Gentleland/SteampunkUI/Fonts/Arvo/Arvo SDF.asset
+  artifactKey: Guid(79307f501eb267b44be9d7ca808a3dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gentleland/SteampunkUI/Fonts/Arvo/Arvo SDF.asset using Guid(79307f501eb267b44be9d7ca808a3dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17378a5a6efceb948b2b0933abd5eda') in 0.097144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom5.fbx
+  artifactKey: Guid(57e4a40cd1c2b704eb77e0ad3097e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom5.fbx using Guid(57e4a40cd1c2b704eb77e0ad3097e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5846917a8fd47054b5c2ba13143c0f') in 0.058896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_B.fbx
+  artifactKey: Guid(158d375424ae3a04cb06c5f51c0551da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_B.fbx using Guid(158d375424ae3a04cb06c5f51c0551da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52a742130568a28c02f11d6dc259a9a') in 0.059832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Materials/Material_metal.mat
+  artifactKey: Guid(f7f769ab392be8c4aaa5b682729f42c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Materials/Material_metal.mat using Guid(f7f769ab392be8c4aaa5b682729f42c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172530b66599900c96a3dc1dd2ee122') in 1.504785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_04.fbx
+  artifactKey: Guid(f114319682c70c64eae5e9e9b500b91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_04.fbx using Guid(f114319682c70c64eae5e9e9b500b91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a5f83d43061ba02bd2032f143da324') in 0.051425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Autumn.fbx
+  artifactKey: Guid(a1e877abeab76674ab7a428c560db91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Autumn.fbx using Guid(a1e877abeab76674ab7a428c560db91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6908b3d644b259b070324376ac77cc74') in 0.048656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc7094ec51b5d4a74e20d657ef77ae0') in 0.055952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/FREE/Materials/M_Pudu.mat
+  artifactKey: Guid(efb81d917c9bfa34f98e2e93ae65b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/FREE/Materials/M_Pudu.mat using Guid(efb81d917c9bfa34f98e2e93ae65b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4061bf383b77a95c810bd5f8fd38ea47') in 0.042202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Snow.fbx
+  artifactKey: Guid(3a903df9134449d41adb1d7067343fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Snow.fbx using Guid(3a903df9134449d41adb1d7067343fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0369d96fdd1d790c6151bbfdb8c4249b') in 0.055609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_brige_01.fbx
+  artifactKey: Guid(5d451249dffc30843b3da88d89ab1975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_brige_01.fbx using Guid(5d451249dffc30843b3da88d89ab1975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308592022b40931b921eca9bc3b3a052') in 0.055466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01a.fbx
+  artifactKey: Guid(187a666634c41034b9bb353a2e23dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01a.fbx using Guid(187a666634c41034b9bb353a2e23dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb16dc35d7f6ba10bb5d352388686936') in 0.102582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01a.fbx
+  artifactKey: Guid(df3ed5cd4974f8e4cafc5dadbe447264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Cactus_01a.fbx using Guid(df3ed5cd4974f8e4cafc5dadbe447264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fe4cb4c5e6d54f8dcce5776ab5cf81') in 0.105239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Prop_Oar_01a.fbx
+  artifactKey: Guid(0e4c850cf404b7d4a94df8dbe428605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Prop_Oar_01a.fbx using Guid(0e4c850cf404b7d4a94df8dbe428605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a158d75973cb9251db7f1aeba3e0b4db') in 0.099741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_E.fbx
+  artifactKey: Guid(e4ac51746797f2e4293a32d5798a711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_E.fbx using Guid(e4ac51746797f2e4293a32d5798a711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faad8bf9a1ce621eb737c206b999afec') in 0.051248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Teapot lid.fbx
+  artifactKey: Guid(fac0124439b110142a06f2f7d197fc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Teapot lid.fbx using Guid(fac0124439b110142a06f2f7d197fc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2189b39a5f552b60a495823e6b6961f5') in 0.098164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01i.fbx
+  artifactKey: Guid(fc6aa6393b01d4744ab684dde56c9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01i.fbx using Guid(fc6aa6393b01d4744ab684dde56c9efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fb845835040342f77e1bbca670c0b2') in 0.116700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_ladder_06.fbx
+  artifactKey: Guid(b47c043fc7550444daf2a7ed35f41312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_ladder_06.fbx using Guid(b47c043fc7550444daf2a7ed35f41312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce4107502e46cccfc54787e4545cf43') in 0.086066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/SilverBirchTreeMediumB.fbx
+  artifactKey: Guid(35f6954680119044e942f5b579d5c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/SilverBirchTreeMediumB.fbx using Guid(35f6954680119044e942f5b579d5c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35c0c26b5097485a2dcf2c332fd9cfa') in 0.130878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e0e33adb7975ede071224369dfeeb2') in 0.286949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/PineTree_C.fbx
+  artifactKey: Guid(24953c3f37dbbb240a5cf112642741e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/PineTree_C.fbx using Guid(24953c3f37dbbb240a5cf112642741e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910dd03f6be542aff387d1eabe903b45') in 0.088121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon004.fbx
+  artifactKey: Guid(8a01f2fa7e726604ba2bbe59a8ab3e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon004.fbx using Guid(8a01f2fa7e726604ba2bbe59a8ab3e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7783fb7ce5e996aaf53c204a34c60f8e') in 0.105753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Art/3D Models/CatBorg Studio/3D Pirates Lowpoly Pack/Materials/M_Imphenzia_LowPollyStyle.mat
+  artifactKey: Guid(ab45c6a366ed37d41986b28426795b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/CatBorg Studio/3D Pirates Lowpoly Pack/Materials/M_Imphenzia_LowPollyStyle.mat using Guid(ab45c6a366ed37d41986b28426795b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994a08dcde1fc6f15fc26a062cd1f849') in 0.095417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Brick.fbx
+  artifactKey: Guid(30c89953ee387334da183f6c76fd48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Brick.fbx using Guid(30c89953ee387334da183f6c76fd48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a47d57598839172e75a4bdf9e56750') in 0.097750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/_Shader/M_DemoPlane.mat
+  artifactKey: Guid(9f3d24ed163daf241b163a07e3eef4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/_Shader/M_DemoPlane.mat using Guid(9f3d24ed163daf241b163a07e3eef4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea839dc3ae009afbf7baa7b39e6bb4d') in 0.072788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom2.fbx
+  artifactKey: Guid(fca5eebacfcd027439b1a55ccbec7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom2.fbx using Guid(fca5eebacfcd027439b1a55ccbec7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fc0cd006c346e422bd55cb5c9634c3') in 0.089004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_SnowBase.fbx
+  artifactKey: Guid(352d61166fe86e64c8c239704389011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_SnowBase.fbx using Guid(352d61166fe86e64c8c239704389011f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4ea643ac27bdb8fa4213fbde976a64') in 0.085452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Brick_Subway.fbx
+  artifactKey: Guid(a626d6d6e3e2eed45a1c2ee0b69d21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Brick_Subway.fbx using Guid(a626d6d6e3e2eed45a1c2ee0b69d21d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0bf58675a94b2137c3c8fe6010b5ed') in 0.093888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Gentleland/SteampunkUI/Fonts/Arvo/Arvo SDF Gold 2.mat
+  artifactKey: Guid(e42fa219aa5dec942bf82a581efab63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gentleland/SteampunkUI/Fonts/Arvo/Arvo SDF Gold 2.mat using Guid(e42fa219aa5dec942bf82a581efab63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca6d6b29abdff05b905f5f5b3b80ca2') in 0.314677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_C.fbx
+  artifactKey: Guid(f195ac57f8166814587404143e5b1fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_C.fbx using Guid(f195ac57f8166814587404143e5b1fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5bab6e2d995fb5cbae8b6128adf9ef') in 0.089305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/3D Models/Whale3D/Mesh/Whale_High.fbx
+  artifactKey: Guid(9d5179409dd6f9b49a517cf74c53578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Whale3D/Mesh/Whale_High.fbx using Guid(9d5179409dd6f9b49a517cf74c53578c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a051950323984ba8cad8d9d0108a56c0') in 0.104192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_A.fbx
+  artifactKey: Guid(af4a94b37cad5b8409e1455d932f1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_A.fbx using Guid(af4a94b37cad5b8409e1455d932f1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0fde8ff6d945c1ab7d27fc841653cb') in 0.088248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom1.fbx
+  artifactKey: Guid(3183255df81812e44bb8509818c53459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom1.fbx using Guid(3183255df81812e44bb8509818c53459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ff4ceb83fa35b17de5d49450132cee') in 0.068909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_B.fbx
+  artifactKey: Guid(d43e721de08bef04e835bd71fb4d87f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Small_B.fbx using Guid(d43e721de08bef04e835bd71fb4d87f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d22b716cc33c3b6fc349bbbcf77c7f') in 0.082036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Winter.fbx
+  artifactKey: Guid(b1fc4549a22793049b375cdf1b82802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Winter.fbx using Guid(b1fc4549a22793049b375cdf1b82802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6d4ce1e0e907956b74dadb690ef506') in 0.097148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Clay.fbx
+  artifactKey: Guid(2c383f7356a42da4e9a9533dfb23d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Clay.fbx using Guid(2c383f7356a42da4e9a9533dfb23d831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c890d9f03fde977080603c3914aa6618') in 0.092352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/PineTree_D.fbx
+  artifactKey: Guid(87f85eee23ebba2468c82e058ad382eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/PineTree_D.fbx using Guid(87f85eee23ebba2468c82e058ad382eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86641ed5c7fd64fa6630f9de56cf83b') in 0.077968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_Railway_tracks_01.fbx
+  artifactKey: Guid(3f562aa0a4f702e42b4fa3fcb987c4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_Railway_tracks_01.fbx using Guid(3f562aa0a4f702e42b4fa3fcb987c4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaab36bc6ea4a8bbe044c5698c4dca4a') in 0.088109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_Dry_01b.fbx
+  artifactKey: Guid(27d1aee1fb747cd4eaf53d00fb2dc9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_Dry_01b.fbx using Guid(27d1aee1fb747cd4eaf53d00fb2dc9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78035db72476974c92c689c385904e9c') in 0.147158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_Railway_tracks_05.fbx
+  artifactKey: Guid(c8cc2485b33d29946a3f1cd5de631fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_Railway_tracks_05.fbx using Guid(c8cc2485b33d29946a3f1cd5de631fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b93977c173398a9951e6da41de36db') in 0.076587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Gentleland/SteampunkUI/Fonts/LiberationSans/LiberationSansGold.mat
+  artifactKey: Guid(163a1442b0975b54aa4974766ffd747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gentleland/SteampunkUI/Fonts/LiberationSans/LiberationSansGold.mat using Guid(163a1442b0975b54aa4974766ffd747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bce5015dbc75cdbd9983859a104fbdf') in 0.113599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Materials/RedCarLight.mat
+  artifactKey: Guid(b5a877fd440bdab4a96fa3afddf81dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Materials/RedCarLight.mat using Guid(b5a877fd440bdab4a96fa3afddf81dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec383e4172c2e4eeea1ccd6c5d767c11') in 0.070585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Stones.fbx
+  artifactKey: Guid(924eaa973399c1741bc7fecef6878a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Stones.fbx using Guid(924eaa973399c1741bc7fecef6878a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936b328ad587e9ba09b54809f4aefc66') in 0.078771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Fork.fbx
+  artifactKey: Guid(c25166397c569e44982d9967db6b0acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Fork.fbx using Guid(c25166397c569e44982d9967db6b0acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb26fcc3d2ff71350015f8d09c27b76') in 0.097388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom6.fbx
+  artifactKey: Guid(e01887e4aaf501a40806fbec160036bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Mushroom6.fbx using Guid(e01887e4aaf501a40806fbec160036bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69da921a12e3000f377e95cde94fc935') in 0.069241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01a.fbx
+  artifactKey: Guid(7ceb1fa58e1715e4fbff6cf3286098e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01a.fbx using Guid(7ceb1fa58e1715e4fbff6cf3286098e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dcf610445015f6695d58ed345e3bb4') in 0.141170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Teapot.fbx
+  artifactKey: Guid(968c88ac4463b2c439ddc0a15994de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Teapot.fbx using Guid(968c88ac4463b2c439ddc0a15994de0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f12d5a2a951612a264cd2c84cdbec45') in 0.083875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Empty Bottle.fbx
+  artifactKey: Guid(b6929615038525143811d819f7425443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Empty Bottle.fbx using Guid(b6929615038525143811d819f7425443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2b54e21c9645aa66985fcd5003ee5f') in 0.096767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Spring.fbx
+  artifactKey: Guid(261fa4606ffbb1d4ab66e45613321616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Spring.fbx using Guid(261fa4606ffbb1d4ab66e45613321616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382f30c5ef31a64d861e76ff1911b3f7') in 0.078722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Animal_Bird_01a.fbx
+  artifactKey: Guid(44881d805248dfe4eb24b66d2ce9ed1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Animal_Bird_01a.fbx using Guid(44881d805248dfe4eb24b66d2ce9ed1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020017af072398a460ccc59cc18b0e76') in 0.126667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Bottled Water.fbx
+  artifactKey: Guid(1e975e908e65af647862b87570cca9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Bottled Water.fbx using Guid(1e975e908e65af647862b87570cca9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd92d8eea62493b7d098eeb2ed164bfc') in 0.078202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Fish.fbx
+  artifactKey: Guid(9134443c59b15d1418a845b0b2bfe376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Fish.fbx using Guid(9134443c59b15d1418a845b0b2bfe376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0272cfb00f29b260e2119ce4321ccec4') in 0.062098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01b.fbx
+  artifactKey: Guid(4a5c4b60b43734c4a933df28f97a7e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Tree_Trunk_01b.fbx using Guid(4a5c4b60b43734c4a933df28f97a7e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c76c7f44ea0168e4e704b3bd4a5df6e') in 0.104232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/FREE/Materials/M_Taipan.mat
+  artifactKey: Guid(9ac546314689e854b8fe7a04dee1fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/FREE/Materials/M_Taipan.mat using Guid(9ac546314689e854b8fe7a04dee1fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846b238dd097af16bb71eed39b108f2e') in 0.047068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Materials/Mirror.mat
+  artifactKey: Guid(00ed8d017346773499dada5912c495c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Materials/Mirror.mat using Guid(00ed8d017346773499dada5912c495c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f279c679beb22845b651da27e094528') in 0.051244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4971b1daeb5433681f06e13d7e4355cd') in 0.153547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Materials/Atlas1_Material.mat
+  artifactKey: Guid(e7476007b3e902f4fbacf11098082904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BeachArea_Set1/Materials/Atlas1_Material.mat using Guid(e7476007b3e902f4fbacf11098082904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e95a851ebe43c8966267924de5b3a39') in 0.131859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01d.fbx
+  artifactKey: Guid(63b9d76bef215494ba3660400e1185e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Pole_Color_01d.fbx using Guid(63b9d76bef215494ba3660400e1185e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7963803367df267df6a021a3e098a9c0') in 0.097615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Lava.fbx
+  artifactKey: Guid(23108fd9e348be54ca52d4484f8a474a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_Lava.fbx using Guid(23108fd9e348be54ca52d4484f8a474a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e180d37945b0a94a9b99c9d6a0e4cd6') in 0.064899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Soil.fbx
+  artifactKey: Guid(1d2dcf3cca292da4aadcfafcaf287b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Rounded_Soil.fbx using Guid(1d2dcf3cca292da4aadcfafcaf287b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6da95e3874500bb4f2fc76b6f6dfeba') in 0.069675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Terrain_Desert_01a.fbx
+  artifactKey: Guid(b369ef58286aff947acef3b2027a6c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Terrain_Desert_01a.fbx using Guid(b369ef58286aff947acef3b2027a6c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced90acf77c8049190108f56fb89661b') in 0.104377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/FREE/Animations/Muskrat_Animations.fbx
+  artifactKey: Guid(0f1eb8fcb39d732419a570705c23a921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/FREE/Animations/Muskrat_Animations.fbx using Guid(0f1eb8fcb39d732419a570705c23a921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72e05a6395972b620b3e3eca039ce27') in 0.089465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c78cd9db67159c2a42ad20b56c3f15') in 0.077368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Prop_cauldron_01a.fbx
+  artifactKey: Guid(d411a5951f9723b4fbcb2492fc008061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Prop_cauldron_01a.fbx using Guid(d411a5951f9723b4fbcb2492fc008061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ae5a2265f55bdcbef37c98579859e4') in 0.187323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564992da993586931bc563c4fa767af6') in 0.111077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Winter_Small.fbx
+  artifactKey: Guid(a94af7c4414fb724ab7123290889c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Winter_Small.fbx using Guid(a94af7c4414fb724ab7123290889c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37ce3425eaea49709c177c02849095d') in 0.103637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Wine.fbx
+  artifactKey: Guid(cabc0ef0c65741943b9b93e099cd8cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Wine.fbx using Guid(cabc0ef0c65741943b9b93e099cd8cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d5da94e1c0584465774f326796ebfc') in 0.076527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_ConcreteMoss.fbx
+  artifactKey: Guid(32ef49deb2d5862449a680dc7ef65122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_ConcreteMoss.fbx using Guid(32ef49deb2d5862449a680dc7ef65122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a347ce820f9746664534426e33ce7c') in 0.094079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon1.fbx
+  artifactKey: Guid(8c3ae473ecef3764cae9367967d36851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/RockCanyon1.fbx using Guid(8c3ae473ecef3764cae9367967d36851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3908ddc0ef5a681d96f93d3491582d45') in 0.074951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_05.fbx
+  artifactKey: Guid(3a084f82abeb3fc44bb0686790110367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_05.fbx using Guid(3a084f82abeb3fc44bb0686790110367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85969606b5544b49100f0a503425b30f') in 0.056450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_07.fbx
+  artifactKey: Guid(5edeb443c6a0400429b5dbd7886da743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_07.fbx using Guid(5edeb443c6a0400429b5dbd7886da743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975e9166b98e18101b5d91fa552a7c28') in 0.054704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_06.fbx
+  artifactKey: Guid(3ca07e1f98985e9488a2b29ed348cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_monorail_06.fbx using Guid(3ca07e1f98985e9488a2b29ed348cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103a53d4e0f6965f82d7b3a7b2c46d90') in 0.054782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Prop_Flag_01a.fbx
+  artifactKey: Guid(dd009f9122345d14e998debb5456ac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Prop_Flag_01a.fbx using Guid(dd009f9122345d14e998debb5456ac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4380364dec8bbb2059988e96e0663f') in 0.130584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_01a.fbx
+  artifactKey: Guid(91fd3c8f9c699814d93d60cd244fcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Plants_Grass_01a.fbx using Guid(91fd3c8f9c699814d93d60cd244fcb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edce12c85f7826b5177943b32d239b53') in 0.119438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bed8f6f75d8eadb26f660956323b06b') in 0.227363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01b.fbx
+  artifactKey: Guid(58ac0d160fc2622418e52717f9401fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Gray_01b.fbx using Guid(58ac0d160fc2622418e52717f9401fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d72258d5b0e9c1e2254205582d00092') in 0.114154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/3D Models/Quirky Series Ultimate/FREE/Materials/M_Colobus.mat
+  artifactKey: Guid(fd1c8abba3cacb847a1c1796d0d8257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Quirky Series Ultimate/FREE/Materials/M_Colobus.mat using Guid(fd1c8abba3cacb847a1c1796d0d8257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29790d1fb23e462d8213cf07745b6ab6') in 0.041330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/3D Models/LowPolyFood/Empty Pop.fbx
+  artifactKey: Guid(6b8d449105df7b9469c81d72cfcf269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyFood/Empty Pop.fbx using Guid(6b8d449105df7b9469c81d72cfcf269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2779348c87ce0df978fa71c23a602c44') in 0.052695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01c.fbx
+  artifactKey: Guid(07346284acfa6cb46ad146e8c2959d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Env_Rocks_Sand_01c.fbx using Guid(07346284acfa6cb46ad146e8c2959d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5bdc82e706dd2c8039707577a599a6') in 0.097043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_brige_03.fbx
+  artifactKey: Guid(6cf26b6c7e4e19c4da3309c03f07e0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_brige_03.fbx using Guid(6cf26b6c7e4e19c4da3309c03f07e0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026202acc711436dcbda9d4e0e99b822') in 0.046207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Winter_Alt.fbx
+  artifactKey: Guid(1eff1047c53c1bc48a9de5f4ac577162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Cube_Winter_Alt.fbx using Guid(1eff1047c53c1bc48a9de5f4ac577162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab04e94adca82222072c083c0e26650') in 0.050890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01h.fbx
+  artifactKey: Guid(70d30c80ed9e899468d691341a97a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EmaceArt - raft on the desert/Meshes/EA04_Wooden_Desk_Color_01h.fbx using Guid(70d30c80ed9e899468d691341a97a907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf747ea291e529b60c723f38584126e9') in 0.077738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_brige_06.fbx
+  artifactKey: Guid(1d750a4ebda842543ba05c25cdf382fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Polygon-City Megapolis/Models/CityProps/SM_brige_06.fbx using Guid(1d750a4ebda842543ba05c25cdf382fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e848df47d930b3a810ac40edce0a6cdf') in 0.066349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c944e42fadb60d6b0e8360a506e8f8b') in 0.051692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.547141 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_ConcreteMossCornerOut.fbx
+  artifactKey: Guid(e2ad621800fbfc441a0a069ea807e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Block_Cap_ConcreteMossCornerOut.fbx using Guid(e2ad621800fbfc441a0a069ea807e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768389dec1c081a33c6e82866c8240b8') in 0.052848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Summer.fbx
+  artifactKey: Guid(55c4a7556586d1a41af84401e23c7f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_Summer.fbx using Guid(55c4a7556586d1a41af84401e23c7f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631683612a18ceba5767654bd4603673') in 0.049683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_Summer.fbx
+  artifactKey: Guid(2a07e72cdd51a8847a97b0f05c4d9a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Medium_Summer.fbx using Guid(2a07e72cdd51a8847a97b0f05c4d9a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8d22548c6217d0db0d805b64d29bef') in 0.050743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_SumAut.fbx
+  artifactKey: Guid(ebd7cb7d2da226040874ab25a655ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_SmallWide_SumAut.fbx using Guid(ebd7cb7d2da226040874ab25a655ac11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f791280af6de8bf58b79679da31e325') in 0.049605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Summer.fbx
+  artifactKey: Guid(0922615b8cf37de4dbed5ebaeb515038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Small_Summer.fbx using Guid(0922615b8cf37de4dbed5ebaeb515038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d500bbc3623a14d0dda1e6b3337a06') in 0.043597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.029884 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx
+  artifactKey: Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Fern_Tall_SumAut.fbx using Guid(9c1b80ac22fa2794c8c3faa0fda4a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d63697e8861f7f1b637600d80d32881') in 0.053042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_D.fbx
+  artifactKey: Guid(a8c2357105bbbbe4688f85277cccc5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/LowPolyEnviroPack_LITE_builtIn/BlocksAndTrees/Meshes/Tree_Medium_D.fbx using Guid(a8c2357105bbbbe4688f85277cccc5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38cc91bb8b95b8c53dca4c574e0ac75e') in 0.048248 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015859 seconds.
+Begin MonoManager ReloadAssembly
+Cleanup Blit
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.Blitter:Cleanup () (at Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs:158)
+UnityEngine.Rendering.Universal.UniversalRenderer:Dispose (bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/UniversalRenderer.cs:361)
+UnityEngine.Rendering.Universal.ScriptableRenderer:Dispose () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/ScriptableRenderer.cs:565)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderer (UnityEngine.Rendering.Universal.ScriptableRenderer&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:493)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:486)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:OnDisable () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:509)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs Line: 158)
+
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00036] in C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.212 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2213ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1725ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (727ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4955 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.8 MB). Loaded Objects now: 5729.
+Memory consumption went from 219.4 MB to 218.6 MB.
+Total: 6.218100 ms (FindLiveObjects: 0.765000 ms CreateObjectMapping: 0.309500 ms MarkObjects: 4.677900 ms  DeleteObjects: 0.463900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.606927 seconds.
+  path: Assets/Art/3D Models/EscapeFromIoc/Gato/alas.fbx
+  artifactKey: Guid(0b1ac0dfd130e3b439039cd41c9e9fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/EscapeFromIoc/Gato/alas.fbx using Guid(0b1ac0dfd130e3b439039cd41c9e9fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8086b5ef2bbeaaa0462840e70837ead') in 0.601998 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017796 seconds.
+Begin MonoManager ReloadAssembly
+Cleanup Blit
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.Blitter:Cleanup () (at Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs:158)
+UnityEngine.Rendering.Universal.UniversalRenderer:Dispose (bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/UniversalRenderer.cs:361)
+UnityEngine.Rendering.Universal.ScriptableRenderer:Dispose () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/ScriptableRenderer.cs:565)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderer (UnityEngine.Rendering.Universal.ScriptableRenderer&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:493)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:486)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:OnDisable () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:509)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs Line: 158)
+
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00036] in C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2093ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1665ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (516ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (747ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4956 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.8 MB). Loaded Objects now: 5782.
+Memory consumption went from 219.4 MB to 218.7 MB.
+Total: 5.198800 ms (FindLiveObjects: 0.506600 ms CreateObjectMapping: 0.472700 ms MarkObjects: 3.646100 ms  DeleteObjects: 0.572000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020593 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00036] in C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2158ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1753ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (765ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (137ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4957 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.8 MB). Loaded Objects now: 5798.
+Memory consumption went from 219.2 MB to 218.4 MB.
+Total: 4.404000 ms (FindLiveObjects: 0.519400 ms CreateObjectMapping: 0.254200 ms MarkObjects: 3.197400 ms  DeleteObjects: 0.431700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 956.781335 seconds.
+  path: Assets/Art/3D Models/Plants/FloweringPea/FloweringPea.fbx
+  artifactKey: Guid(a0831f14de9a3714891f9ec3b68aee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Plants/FloweringPea/FloweringPea.fbx using Guid(a0831f14de9a3714891f9ec3b68aee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ddf683711c9bf529128d38382ce0cc') in 1.786931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2293.044180 seconds.
+  path: Assets/Art/3D Models/Plants/FloweringPea/floweringPea1FlowerShader.mat
+  artifactKey: Guid(f96aed4882f3541498310515eb48a421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Plants/FloweringPea/floweringPea1FlowerShader.mat using Guid(f96aed4882f3541498310515eb48a421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ddc2ba87f2d934c5b3054c4e72bed7') in 0.246953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/3D Models/Plants/FloweringPea/floweringPea1Shader.mat
+  artifactKey: Guid(af771bcbb08e6944c88e731ed5c3a9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Models/Plants/FloweringPea/floweringPea1Shader.mat using Guid(af771bcbb08e6944c88e731ed5c3a9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772a08fa0b8975b89b4bf08a0895bcf8') in 0.087306 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016619 seconds.
+Begin MonoManager ReloadAssembly
+Cleanup Blit
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.Blitter:Cleanup () (at Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs:158)
+UnityEngine.Rendering.Universal.UniversalRenderer:Dispose (bool) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/UniversalRenderer.cs:361)
+UnityEngine.Rendering.Universal.ScriptableRenderer:Dispose () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/ScriptableRenderer.cs:565)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderer (UnityEngine.Rendering.Universal.ScriptableRenderer&) (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:493)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:DestroyRenderers () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:486)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:OnDisable () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Runtime/Data/UniversalRenderPipelineAsset.cs:509)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Runtime/Utilities/Blitter.cs Line: 158)
+
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad:.cctor () (at Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs:23)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Gentleland/SteampunkUI/Utils/Editor/OpenWindowsOnLoad.cs line 23]
+
+UnityEngine.UnityException: Creating asset at path Assets/GentlelandSettings/GentlelandSettings_SteampunkUI.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Gentleland.Utils.SteampunkUI.OpenWindowsOnLoad..cctor () [0x00036] in C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Assets\Gentleland\SteampunkUI\Utils\Editor\OpenWindowsOnLoad.cs:23 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2154ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1669ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (723ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (122ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4956 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.8 MB). Loaded Objects now: 5851.
+Memory consumption went from 219.2 MB to 218.4 MB.
+Total: 19.698700 ms (FindLiveObjects: 0.534600 ms CreateObjectMapping: 0.593900 ms MarkObjects: 17.970100 ms  DeleteObjects: 0.599000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Trying to reload asset but can't find object on disk
+Registering precompiled user dll's ...
+Registered in 0.012039 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Quaven\Documents\GitHub\GameJamLevelUp\LevelUpGameJam\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 109.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <1c8569827291471e9db0dcd976e97952>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <39d6421ea91449339eee7ef41a176a38>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <8117508d098d40e7b6cab2e14abb2fdc>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1852ms)
+		BeginReloadAssembly (269ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1377ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (393ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (648ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (187ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching render pipeline 9b675df7ef7bf3347a5a2d4e68dcfd2e -> 00000000000000000000000000000000
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 714 unused Assets / (1.9 MB). Loaded Objects now: 5154.
+Memory consumption went from 169.9 MB to 168.1 MB.
+Total: 5.811200 ms (FindLiveObjects: 0.534900 ms CreateObjectMapping: 0.255600 ms MarkObjects: 3.757600 ms  DeleteObjects: 1.260600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-pipeline:  -> b976d57ffeb73f43a7a5d2e486cddfe2
