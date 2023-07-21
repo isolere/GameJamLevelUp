@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class PickUp : MonoBehaviour
 {
@@ -13,8 +13,8 @@ public class PickUp : MonoBehaviour
 
     public Slider sliderPoints;
     public Animation animSlider;
-
-    public int points;
+   
+    public int points;    
 
 
     /*void OnCollisionEnter(Collision other)
@@ -22,6 +22,17 @@ public class PickUp : MonoBehaviour
         Debug.Log("Has chocado!");
 
     }*/
+
+    private void WinConditions()
+
+    {
+        if (points > 1)
+        {
+            Debug.Log("CoNDITIONS MET");
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+        }
+
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -63,6 +74,7 @@ public class PickUp : MonoBehaviour
             Destroy(other.gameObject, destroyDelay);
         }
 
+        
 
     }
 
