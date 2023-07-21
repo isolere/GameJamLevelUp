@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3464967234366949571}
   - component: {fileID: 5963575611381268305}
   m_Layer: 0
-  m_Name: PickUpWasteAnimal01
+  m_Name: PickUpAnimal01
   m_TagString: PickUpAnimal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

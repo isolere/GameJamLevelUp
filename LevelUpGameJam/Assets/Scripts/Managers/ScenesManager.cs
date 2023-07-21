@@ -5,37 +5,33 @@ using UnityEngine.SceneManagement;
 
 public class ScenesManager : MonoBehaviour
 {
-    [Header("Menus")][SerializeField] private string MainMenu = "Main Menu";
-    [SerializeField] private string gameOver = "Game Over 1";
-    [SerializeField] private string victoryScene = "Victoria";
-    [Header("Levels")][SerializeField] private string level01 = "Level 01";
-
-    private void LoadMainMenu()
+    
+    public void LoadMainMenu()
     {
-        SceneManager.LoadScene(gameOver);
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 
-    private void LoadGameOver()
+    public void LoadGameOver()
     {
-        SceneManager.LoadScene(gameOver);
+        SceneManager.LoadScene(3, LoadSceneMode.Single);
 
     }
 
-    private void LoadVictory()
+    public void LoadVictory()
     {
-        SceneManager.LoadScene(victoryScene);
+        SceneManager.LoadScene(2, LoadSceneMode.Single);
 
     }
 
-    private void LoadLevel()
+    public void LoadLevel()
     {
-        SceneManager.LoadScene(level01);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
 
     }
 
-    private void QuitGame()
+    public void QuitGame()
     {
-
+        Application.Quit();
     }
 
     // Start is called before the first frame update
