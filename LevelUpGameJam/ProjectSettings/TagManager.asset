@@ -7,6 +7,7 @@ TagManager:
   - PickUpWaste
   - PickUpAnimal
   - pla_collider_aigua
+  - Message
   layers:
   - Default
   - TransparentFX
