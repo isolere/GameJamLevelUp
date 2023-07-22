@@ -13,7 +13,8 @@ public class PickUp : MonoBehaviour
 
     public Slider sliderPoints;
     public Animation animSlider;
-   
+
+
     public int points;    
 
 
@@ -23,12 +24,24 @@ public class PickUp : MonoBehaviour
 
     }*/
 
-    private void WinConditions()
+    private void WinConditions(int points)
 
     {
-        if (points > 1)
+        if (points == 10)
         {
-            Debug.Log("CoNDITIONS MET");
+            Debug.Log("has guanyat");
+            SceneManager.LoadScene(2, LoadSceneMode.Single);
+        }
+
+    }
+
+
+    private void LoseConditions(int points)
+
+    {
+        if (points < 0)
+        {
+            Debug.Log("has perdut");
             SceneManager.LoadScene(3, LoadSceneMode.Single);
         }
 
@@ -53,6 +66,9 @@ public class PickUp : MonoBehaviour
             animSlider.Play();
 
             Destroy(other.gameObject, destroyDelay);
+
+            WinConditions(points);
+
         }
 
         if (other.tag == "PickUpAnimal")
@@ -72,6 +88,10 @@ public class PickUp : MonoBehaviour
             animSlider.Play();
 
             Destroy(other.gameObject, destroyDelay);
+
+            WinConditions(points);
+
+
         }
 
         if (other.tag == "HurtAnimal")
@@ -89,6 +109,7 @@ public class PickUp : MonoBehaviour
             points -= 10;
             sliderPoints.value = points;
             animSlider.Play();
+            LoseConditions(points);
 
         }
 
