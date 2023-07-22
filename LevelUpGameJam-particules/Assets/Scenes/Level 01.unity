@@ -25927,8 +25927,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43a809c192dd9f4fb00648b2a068c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedH: 2
-  speedV: 2
+  jugador: {fileID: 1571876209}
+  velocitatRotacio: 2
 --- !u!1001 &966908850
 PrefabInstance:
   m_ObjectHideFlags: 0

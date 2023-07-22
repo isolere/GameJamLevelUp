@@ -43,7 +43,7 @@ public class PickUp : MonoBehaviour
     private void WinConditions(int points)
 
     {
-        if (points == 30)
+        if (points == 1000)
         {
 
             winVFX.SetActive(true);
