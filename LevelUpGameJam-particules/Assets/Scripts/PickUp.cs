@@ -27,10 +27,12 @@ public class PickUp : MonoBehaviour
     private void WinConditions(int points)
 
     {
-        if (points == 100)
+        if (points == 1000)
         {
             Debug.Log("has guanyat");
-            SceneManager.LoadScene(2, LoadSceneMode.Single);
+            GameManager.LoadVictory();
+            AudioManager.Instance.StopTrack();
+
         }
 
     }
@@ -42,7 +44,8 @@ public class PickUp : MonoBehaviour
         if (points < 0)
         {
             Debug.Log("has perdut");
-            SceneManager.LoadScene(3, LoadSceneMode.Single);
+
+            GameManager.LoadGameOver();
         }
 
     }

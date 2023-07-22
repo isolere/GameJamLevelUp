@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 3464967234366949597}
   - component: {fileID: 3464967234366949571}
   - component: {fileID: 5963575611381268305}
+  - component: {fileID: 6365341773183137138}
   m_Layer: 0
   m_Name: PickUpAnimal01
   m_TagString: PickUpAnimal
@@ -155,10 +156,23 @@ BoxCollider:
   m_GameObject: {fileID: 3464967234366949568}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 13.796234, y: 10.621704, z: 18.206635}
   m_Center: {x: -1.1650543, y: 4.810852, z: -0.10551453}
+--- !u!135 &6365341773183137138
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464967234366949568}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 12.924255
+  m_Center: {x: -0.8574829, y: 1.774334, z: -1.1553955}
 --- !u!1001 &3464967233967602701
 PrefabInstance:
   m_ObjectHideFlags: 0
