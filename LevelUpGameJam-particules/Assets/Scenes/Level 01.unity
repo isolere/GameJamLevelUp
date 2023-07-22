@@ -16478,7 +16478,7 @@ GameObject:
   - component: {fileID: 1111132397}
   m_Layer: 3
   m_Name: aigua_prova
-  m_TagString: Untagged
+  m_TagString: pla_collider_aigua
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16490,14 +16490,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111132395}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.03806, y: -6.4, z: 433.64017}
-  m_LocalScale: {x: 206.99979, y: 290.87613, z: 206.99979}
+  m_LocalRotation: {x: -0, y: 0.16614035, z: -0, w: 0.98610216}
+  m_LocalPosition: {x: 269.03806, y: -5, z: 433.64017}
+  m_LocalScale: {x: 278.3526, y: 391.1411, z: 278.3526}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1890894613}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 19.127, z: 0}
 --- !u!64 &1111132397
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22479,7 +22479,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540675540}
   serializedVersion: 8
-  lengthInSec: 8.63
+  lengthInSec: 0.05
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -22554,7 +22554,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 20.6
+      scalar: 0.0001
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -22607,8 +22607,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1.2
-      minScalar: 1
+      scalar: 0
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -22661,7 +22661,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.8962264, g: 0.46925062, b: 0.82871723, a: 1}
+      maxColor: {r: 0.8962264, g: 0.46925062, b: 0.82871723, a: 0}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -33680,6 +33680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
+    - target: {fileID: 338814081620476044, guid: 57398639e5b202a4e9c97f1c4d16e792, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57398639e5b202a4e9c97f1c4d16e792, type: 3}
 --- !u!114 &3344724482630962833 stripped
@@ -34170,11 +34174,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6927697060541478706, guid: bc4c7878da7190f4a95358be3646b2d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.947403
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 6927697060541478716, guid: bc4c7878da7190f4a95358be3646b2d5, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6927697060541478717, guid: bc4c7878da7190f4a95358be3646b2d5, type: 3}
       propertyPath: m_Convex
