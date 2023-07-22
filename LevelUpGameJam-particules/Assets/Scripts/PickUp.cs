@@ -14,9 +14,21 @@ public class PickUp : MonoBehaviour
     public Slider sliderPoints;
     public Animation animSlider;
 
-    [SerializeField] private AudioClip VictoryClip;
+    [SerializeField] private GameObject explosioVFX;
+    [SerializeField] private GameObject winVFX;
 
+
+
+    [SerializeField] private AudioClip VictoryClip;
     [SerializeField] private AudioClip defeatClip;
+
+    private void Start()
+    {
+       explosioVFX.SetActive(false);
+       winVFX.SetActive(false);
+
+
+    }
 
 
     public int points;
@@ -33,6 +45,8 @@ public class PickUp : MonoBehaviour
     {
         if (points == 30)
         {
+
+            winVFX.SetActive(true);
             Debug.Log("has guanyat");
 
             AudioManager.Instance.PlayVictoryClip();
@@ -47,11 +61,19 @@ public class PickUp : MonoBehaviour
     {
         if (points < 0)
         {
+
+
+
             Debug.Log("has perdut");
+
+            explosioVFX.SetActive(true);
+
 
             AudioManager.Instance.PlayDefeatClip();
 
             GameManager.LoadGameOver();
+
+
 
         }
 
