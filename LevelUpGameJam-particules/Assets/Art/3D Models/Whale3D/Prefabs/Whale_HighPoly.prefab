@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 8473637281567703371}
   - component: {fileID: 1950740301321415729}
   - component: {fileID: 1757405654428356002}
-  - component: {fileID: 8200352000659767045}
+  - component: {fileID: 9102202561626776268}
   m_Layer: 0
   m_Name: Whale_HighPoly
   m_TagString: HurtAnimal
@@ -131,11 +131,11 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 4.4449344
-  m_Height: 15.361391
+  m_Radius: 5.5482645
+  m_Height: 17.094564
   m_Direction: 2
-  m_Center: {x: -0.13469298, y: -0.658303, z: -2.3661692}
---- !u!136 &8200352000659767045
+  m_Center: {x: 0.1186056, y: -0.55966187, z: -3.2327547}
+--- !u!136 &9102202561626776268
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,10 +145,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 4.4449344
-  m_Height: 15.361391
+  m_Radius: 5.5482645
+  m_Height: 17.094564
   m_Direction: 2
-  m_Center: {x: -0.13469298, y: -0.658303, z: -2.3661692}
+  m_Center: {x: 0.1186056, y: -0.55966187, z: -3.2327547}
 --- !u!1 &5269135980360859746
 GameObject:
   m_ObjectHideFlags: 0

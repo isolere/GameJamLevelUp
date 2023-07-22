@@ -14,8 +14,12 @@ public class PickUp : MonoBehaviour
     public Slider sliderPoints;
     public Animation animSlider;
 
+    [SerializeField] private AudioClip VictoryClip;
 
-    public int points;    
+    [SerializeField] private AudioClip defeatClip;
+
+
+    public int points;
 
 
     /*void OnCollisionEnter(Collision other)
@@ -27,16 +31,16 @@ public class PickUp : MonoBehaviour
     private void WinConditions(int points)
 
     {
-        if (points == 1000)
+        if (points == 30)
         {
             Debug.Log("has guanyat");
+
+            AudioManager.Instance.PlayVictoryClip();
             GameManager.LoadVictory();
-            AudioManager.Instance.StopTrack();
 
         }
 
     }
-
 
     private void LoseConditions(int points)
 
@@ -45,7 +49,10 @@ public class PickUp : MonoBehaviour
         {
             Debug.Log("has perdut");
 
+            AudioManager.Instance.PlayDefeatClip();
+
             GameManager.LoadGameOver();
+
         }
 
     }
@@ -68,6 +75,8 @@ public class PickUp : MonoBehaviour
             sliderPoints.value = points;
             animSlider.Play();
 
+            AudioManager.Instance.PlayPickUpClip();
+
             Destroy(other.gameObject, destroyDelay);
 
             WinConditions(points);
@@ -89,6 +98,7 @@ public class PickUp : MonoBehaviour
             points += 10;
             sliderPoints.value = points;
             animSlider.Play();
+            AudioManager.Instance.PlayPickUpClip();
 
             Destroy(other.gameObject, destroyDelay);
 
@@ -99,6 +109,9 @@ public class PickUp : MonoBehaviour
 
         if (other.tag == "HurtAnimal")
         {
+
+            AudioManager.Instance.PlayXocaClip();
+
             Debug.Log("Has xocat amb un animal!");
             /*
             Amb la variable Destroy() destruim un gameObject. Aquesta necesita 2 valors: 
@@ -112,6 +125,7 @@ public class PickUp : MonoBehaviour
             points -= 10;
             sliderPoints.value = points;
             animSlider.Play();
+
             LoseConditions(points);
 
         }

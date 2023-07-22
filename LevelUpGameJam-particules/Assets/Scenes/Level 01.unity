@@ -20812,6 +20812,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 811964853}
     m_Modifications:
+    - target: {fileID: 5324609486527897232, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
+      propertyPath: m_Radius
+      value: 6.8590317
+      objectReference: {fileID: 0}
+    - target: {fileID: 5324609486527897232, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
+      propertyPath: m_Center.x
+      value: 5.3669586
+      objectReference: {fileID: 0}
+    - target: {fileID: 5324609486527897232, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
+      propertyPath: m_Center.z
+      value: 2.6541586
+      objectReference: {fileID: 0}
     - target: {fileID: 5324609486527897233, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -20865,12 +20877,28 @@ PrefabInstance:
       value: PickUpWasteGroup (2)
       objectReference: {fileID: 0}
     - target: {fileID: 5651570446836469436, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.48736
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651570446836469436, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.48736
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651570446836469436, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.48736
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651570446836469436, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7
+      value: 5.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5651570446836469436, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.82
       objectReference: {fileID: 0}
     - target: {fileID: 5651570446836469436, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 33
+      value: 2.82
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735cbae8a7361ec4ab5916e5072cb0a0, type: 3}
@@ -24279,7 +24307,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9acb265097eeffa499342ba3266530fb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.419
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -24375,7 +24403,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d8a5173e03b92d94cabd72df0893e1d7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.529
+  m_Volume: 0.093
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -24475,6 +24503,8 @@ MonoBehaviour:
   stats: {fileID: 0}
   sliderPoints: {fileID: 3344724482630962833}
   animSlider: {fileID: 7749033180151924042}
+  VictoryClip: {fileID: 8300000, guid: b344bd8a86f676a4fac002d524cc1917, type: 3}
+  defeatClip: {fileID: 8300000, guid: fc3eda972a7320c4ebc204005a383f9e, type: 3}
   points: 0
 --- !u!114 &1540675559
 MonoBehaviour:
@@ -31636,6 +31666,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d284c06546ae94eaf57e12e9abc3c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AmbientClip: {fileID: 0}
+  musicVolume: 1
+  fadeSpeed: 1
+  hoverClip: {fileID: 0}
+  hoverVolume: 1
+  selectClip: {fileID: 0}
+  selectVolume: 1
+  VictoryClip: {fileID: 8300000, guid: efd1d60d120e3534a97b6aae3a131590, type: 3}
+  defeatClip: {fileID: 8300000, guid: 0793436161e9ad94fb4f7cedacfc7d3c, type: 3}
+  pickUpClip: {fileID: 8300000, guid: 162f868d336b1444cbe8cb0a49fabc4c, type: 3}
+  xocaClip: {fileID: 8300000, guid: 667ac73c30760e14eb535ec839b5c2a6, type: 3}
 --- !u!4 &1751777176
 Transform:
   m_ObjectHideFlags: 0

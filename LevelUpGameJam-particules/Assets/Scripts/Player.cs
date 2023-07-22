@@ -42,8 +42,6 @@ public class Player : MonoBehaviour
         {
             // Desplaçament cap direccio contraria durant 0.3segons
 
-
-
             if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
             {
                 transform.Translate(100 * Time.deltaTime, -0, 0);
@@ -81,13 +79,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag != "pla_collider_aigua")
         {
              retrocedir = true;
-
+            
         }
-        
-
-
-        
-
 
 
         //moveSpeed = slowSpeed; 

@@ -123,8 +123,8 @@ public class GameManager : MonoBehaviour
 
     //codi rectificat per afegir el delay:
     public static void LoadGameOver()
-    {       
-        // AudioManager.Instance.StopTrack();
+    {      
+        AudioManager.Instance.StopTrack();
 
         Instance.StartCoroutine(Instance.DelayedLoadLevel(3,Instance.sceneDefeatDelay));
 
@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour
     public static void LoadVictory()
     {
 
-        //   AudioManager.Instance.StopTrack();
+        AudioManager.Instance.StopTrack();
 
         Instance.StartCoroutine(Instance.DelayedLoadLevel(2,Instance.sceneVictoryDelay));
     }
