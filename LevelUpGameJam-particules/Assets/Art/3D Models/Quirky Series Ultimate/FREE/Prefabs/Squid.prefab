@@ -699,9 +699,11 @@ GameObject:
   - component: {fileID: 8648425310868573238}
   - component: {fileID: 4105349500978914225}
   - component: {fileID: 8033698545883803558}
+  - component: {fileID: 9007360710253644389}
+  - component: {fileID: 6710053644903353409}
   m_Layer: 0
   m_Name: Squid
-  m_TagString: Untagged
+  m_TagString: HurtAnimal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -778,6 +780,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &9007360710253644389
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7511180232019162148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.53108025
+  m_Height: 1.4089056
+  m_Direction: 1
+  m_Center: {x: 0.000000027744957, y: 0.75384057, z: -0.14967315}
+--- !u!136 &6710053644903353409
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7511180232019162148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.53108025
+  m_Height: 1.4089056
+  m_Direction: 1
+  m_Center: {x: 0.000000027744957, y: 0.75384057, z: -0.14967315}
 --- !u!1 &7535825155527325181
 GameObject:
   m_ObjectHideFlags: 0

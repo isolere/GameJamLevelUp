@@ -74,7 +74,25 @@ public class PickUp : MonoBehaviour
             Destroy(other.gameObject, destroyDelay);
         }
 
-        
+        if (other.tag == "HurtAnimal")
+        {
+            Debug.Log("Has xocat amb un animal!");
+            /*
+            Amb la variable Destroy() destruim un gameObject. Aquesta necesita 2 valors: 
+            1) Coneixer l'objecte que esta destruïnt i 
+            2) Saber el temps que ha d'esperar a destruïr-ho
+            En aquest cas el codi ja ens determina només s'aplicarà a objectes que tinguin la tag "Package"
+            */
+
+            //actualitza puntuacio, icnremetna slider i fa petita animacio
+
+            points -= 10;
+            sliderPoints.value = points;
+            animSlider.Play();
+
+        }
+
+
 
     }
 
