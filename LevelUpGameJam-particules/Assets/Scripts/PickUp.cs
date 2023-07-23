@@ -14,19 +14,24 @@ public class PickUp : MonoBehaviour
     public Slider sliderPoints;
     public Animation animSlider;
 
+    public int puntMax;
+
     [SerializeField] private GameObject explosioVFX;
     [SerializeField] private GameObject winVFX;
+    [SerializeField] private GameObject xocVFX;
 
-
+    [SerializeField] public GameObject pickUpVFX;
 
     [SerializeField] private AudioClip VictoryClip;
     [SerializeField] private AudioClip defeatClip;
+
+
 
     private void Start()
     {
        explosioVFX.SetActive(false);
        winVFX.SetActive(false);
-
+       xocVFX.SetActive(false);
 
     }
 
@@ -43,7 +48,7 @@ public class PickUp : MonoBehaviour
     private void WinConditions(int points)
 
     {
-        if (points == 1000)
+        if (points == puntMax)
         {
 
             winVFX.SetActive(true);
@@ -97,6 +102,16 @@ public class PickUp : MonoBehaviour
             sliderPoints.value = points;
             animSlider.Play();
 
+            //sistema de particules al recollir pickUp
+            Vector3 position = other.ClosestPointOnBounds(transform.position);
+
+            // Instanciar el sistema de partículas en la posición del colisionador
+            GameObject particlesInstance = Instantiate(pickUpVFX, position, Quaternion.identity);
+
+            // Asegurarse de que las partículas se destruyan después de cierto tiempo si es necesario
+            float tiempoDeDuracion = 2.0f; // Tiempo de duración en segundos
+            Destroy(particlesInstance, tiempoDeDuracion);
+
             AudioManager.Instance.PlayPickUpClip();
 
             Destroy(other.gameObject, destroyDelay);
@@ -121,6 +136,20 @@ public class PickUp : MonoBehaviour
             sliderPoints.value = points;
             animSlider.Play();
             AudioManager.Instance.PlayPickUpClip();
+
+
+            //sistema de particules al recollir pickUp
+
+            Vector3 position = other.ClosestPointOnBounds(transform.position);
+
+            // Instanciar el sistema de partículas en la posición del colisionador
+            GameObject particlesInstance = Instantiate(pickUpVFX, position, Quaternion.identity);
+
+            // Asegurarse de que las partículas se destruyan después de cierto tiempo si es necesario
+            float tiempoDeDuracion = 2.0f; // Tiempo de duración en segundos
+            Destroy(particlesInstance, tiempoDeDuracion);
+
+
 
             Destroy(other.gameObject, destroyDelay);
 
@@ -148,6 +177,11 @@ public class PickUp : MonoBehaviour
             sliderPoints.value = points;
             animSlider.Play();
 
+            xocVFX.SetActive(true);
+
+            StartCoroutine(DesactivarXocVFXAfterDelay(2f)); // desactivem l'efecte al cap de 2 f
+
+
             LoseConditions(points);
 
         }
@@ -155,7 +189,14 @@ public class PickUp : MonoBehaviour
 
 
     }
+    private IEnumerator DesactivarXocVFXAfterDelay(float delayTime)
+    {
+        // Esperar el tiempo especificado
+        yield return new WaitForSeconds(delayTime);
 
+        // Desactivar el objeto xocVFX después del tiempo de espera
+        xocVFX.SetActive(false);
+    }
 
 
 }
