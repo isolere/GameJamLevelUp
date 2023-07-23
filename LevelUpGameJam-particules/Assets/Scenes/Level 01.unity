@@ -34182,7 +34182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6156896720459890681, guid: ffdc7f808d4cdb64aa7328a585a13294, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6156896720459890687, guid: ffdc7f808d4cdb64aa7328a585a13294, type: 3}
@@ -39492,6 +39492,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1671700217152177579, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 54
+      objectReference: {fileID: 0}
     - target: {fileID: 2081674678944303595, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
       propertyPath: m_Value
       value: 0
@@ -39512,12 +39516,209 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_text
+      value: "Recoge pl\xE1sticos o rescata animales para generar \"\xE9ter\" y rellenar
+        el medidor de equilibrio del mar. \n\xA1Cuidado de no chocar contra \nanimales
+        salvajes!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontSize
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -164.21126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.y
+      value: -87.62426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -113.53734
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401286570720, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401286570723, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 94.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401367193035, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -154.61641
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401367193035, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -106.877914
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401367193035, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401367193035, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401367193035, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401367193035, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401613841193, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -160.21684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401613841193, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -109.11705
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401613841193, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401613841193, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401613841193, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401613841193, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401799035765, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -155.73418
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401799035765, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -99.03108
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401799035765, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401799035765, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401799035765, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401799035765, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401865697726, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_text
+      value: Los humanos creen que la naturaleza es una fuente ilimitada de recursos
+        y que la pueden exprimir a su antojo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401865697726, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -143.4041
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401865697726, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -104.6364
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401865697726, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401865697726, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513401865697726, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513401865697726, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3641513402198489733, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3641513402727047349, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392489, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392494, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 110.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_text
+      value: "\xA1Restaura el equilibrio! Despu\xE9s de la ca\xEDda de su tierra
+        natal, El Gran Bosque de Shalot, las hadas Atlantia, Derya y su mascota Xana,
+        se lanzan a alta mar."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontSize
+      value: 34.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -153.25087
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.y
+      value: -42.483612
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -108.84947
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 34.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 3641513402749392495, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3641513402755094802, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
@@ -39576,6 +39777,54 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.29999924
       objectReference: {fileID: 0}
+    - target: {fileID: 5132928430853928315, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8246024
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132928430853928315, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6556654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132928430853928315, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.56330943
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132928430853928315, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132928430853928315, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 90.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5777672067751324593, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontSize
+      value: 48.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5777672067751324593, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -189.46016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5777672067751324593, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -149.38582
+      objectReference: {fileID: 0}
+    - target: {fileID: 5777672067751324593, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 5777672067751324593, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5777672067751324593, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 5777672067751324593, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6148656405793726402, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0987955
@@ -39596,8 +39845,61 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7086744014914366747, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -150.1291
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086744014914366747, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -95.66896
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086744014914366747, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 7086744014914366747, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086744014914366747, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 7086744014914366747, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7672774707173242054, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959953810934879421, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_text
+      value: "Las latas de refresco pasar\xE1n m\xE1s tiempo en \xE9ste mundo que
+        los humanos que las beben..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959953810934879421, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -146.76686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959953810934879421, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -94.54726
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959953810934879421, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 7959953810934879421, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959953810934879421, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 7959953810934879421, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8618408842146043591, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
@@ -39609,6 +39911,38 @@ PrefabInstance:
       value: "La sobreexplotaci\xF3n de los recursos naturales est\xE0 provocando
         la desertificaci\xF3n de un tercio de la superficie del planeta, a una velocidad
         equivalente a un campo de futbol cada dos segundos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079170730783150692, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontSize
+      value: 32.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079170730783150692, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.x
+      value: -166.94469
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079170730783150692, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_margin.z
+      value: -106.875534
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079170730783150692, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 9079170730783150692, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_lineSpacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079170730783150692, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 32.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079170730783150692, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8811887344629512821, guid: 1e064d55c958e38489163c2a83ae394d, type: 2}
+    - target: {fileID: 9079170730783150692, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea8fca43b87c2a41a8a0b69c17600e7, type: 3}
