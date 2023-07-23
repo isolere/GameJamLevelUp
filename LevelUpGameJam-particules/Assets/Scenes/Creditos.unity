@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SALIR
+  m_text: "MEN\xDA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 15a52b6cb3c550a4d8d54edfcb6c11c2, type: 2}
   m_sharedMaterial: {fileID: -7883193995850963871, guid: 15a52b6cb3c550a4d8d54edfcb6c11c2, type: 2}
@@ -1509,7 +1509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6156896720459890681, guid: ffdc7f808d4cdb64aa7328a585a13294, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffdc7f808d4cdb64aa7328a585a13294, type: 3}
@@ -2102,7 +2102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6156896720459890681, guid: ffdc7f808d4cdb64aa7328a585a13294, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffdc7f808d4cdb64aa7328a585a13294, type: 3}
