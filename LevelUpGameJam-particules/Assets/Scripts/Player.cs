@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     [SerializeField] float steerSpeed = 1f;
-    [SerializeField] float moveSpeed = 205f;
+    [SerializeField] float moveSpeed = 155f;
     [SerializeField] float slowSpeed = 15f;
     [SerializeField] float boostSpeed = 30f;
 
