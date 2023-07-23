@@ -22,7 +22,9 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip defeatClip;
 
     [SerializeField] private AudioClip pickUpClip;
+
     [SerializeField] private AudioClip xocaClip;
+
 
 
 
