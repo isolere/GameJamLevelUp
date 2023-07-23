@@ -623,9 +623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'PLAY
-
-'
+  m_text: JUGAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 15a52b6cb3c550a4d8d54edfcb6c11c2, type: 2}
   m_sharedMaterial: {fileID: -7883193995850963871, guid: 15a52b6cb3c550a4d8d54edfcb6c11c2, type: 2}
@@ -888,7 +886,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SALIR
+  m_text: EXIT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 15a52b6cb3c550a4d8d54edfcb6c11c2, type: 2}
   m_sharedMaterial: {fileID: -7883193995850963871, guid: 15a52b6cb3c550a4d8d54edfcb6c11c2, type: 2}
