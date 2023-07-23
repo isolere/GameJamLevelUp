@@ -67,6 +67,7 @@ public class GameManager : MonoBehaviour
     [Header("Menus")] [SerializeField] private string mainMenu = "MainMenu";
     [SerializeField] private string gameOver = "GameOver";
     [SerializeField] private string victoryScene = "Victory";
+    [SerializeField] private string creditosScene = "Creditos";
     // [SerializeField] private string controls = "Controls";
     [Header("Levels")] [SerializeField] private string level01 = "Level 01";
 
@@ -77,6 +78,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private float sceneDefeatDelay = 3f;
     [SerializeField] private float sceneVictoryDelay = 3f;
+    [SerializeField] private float sceneCreditosDelay = 3f;
 
     /*
     [Header("Levels")] [SerializeField] private GameLevelsSO gameLevels;
@@ -144,6 +146,13 @@ public class GameManager : MonoBehaviour
 
         Instance.StartCoroutine(Instance.DelayedLoadLevel(1, delay));
 
+    }
+    public static void LoadCreditos()
+    {
+
+        AudioManager.Instance.StopTrack();
+
+        Instance.StartCoroutine(Instance.DelayedLoadLevel(4, Instance.sceneCreditosDelay));
     }
 
 

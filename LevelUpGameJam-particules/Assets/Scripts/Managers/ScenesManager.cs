@@ -34,6 +34,12 @@ public class ScenesManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void LoadCreditos()
+    {
+        SceneManager.LoadScene(4, LoadSceneMode.Single);
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {
